@@ -1,0 +1,12 @@
+.navbar-logo {
+    width: 50px;
+}
+
+.buttons-hero-webgencia {
+    display: flex;
+    gap: 15px;
+}
+
+.autor-quote {
+   margin-left: 5px;
+}
