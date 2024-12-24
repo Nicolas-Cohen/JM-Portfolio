@@ -9416,7 +9416,11 @@ textarea.form-control {
 .contact-section .img {
   width: 100%;
   background-position: top center; }
+<<<<<<< HEAD
   @media (max-width: 767.98px) {
+=======
+  @media (max-width: 991.98px) {
+>>>>>>> 92eb13d1c4cd424cc75dd3bd0340e4a7ba36d1a8
     .contact-section .img {
       height: 500px; } }
 
