@@ -8291,8 +8291,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
       color: #ffbd39;
-      outline: none !important; }
-  
+      outline: none !important;
     right: 0;
     left: 0;
     top: 0;
@@ -8396,7 +8395,7 @@ h1, h2, h3, h4, h5,
       .hero {
         position: relative;
         height: 100vh;
-        background-image: url("../images/hero.jpg");
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url("../images/hero.jpg");
         background-size: cover;
         background-position: center center;
         display: flex;
@@ -8407,8 +8406,8 @@ h1, h2, h3, h4, h5,
       .hero .slider-text {
         text-align: left;
         color: #fff;
-        position: relative;
-        z-index: 1;
+        position: absolute;
+        top: 45%;
       }
       
       .hero .slider-text .subheading {
@@ -8447,7 +8446,6 @@ h1, h2, h3, h4, h5,
         letter-spacing: 2px;
         padding: 10px 25px;
         border-radius: 30px;
-        margin-right: 20px;
         transition: all 0.3s ease;
       }
       
@@ -8474,6 +8472,8 @@ h1, h2, h3, h4, h5,
       @media (max-width: 991.98px) {
         .hero .slider-text {
           text-align: center;
+          position: relative;
+          justify-content: center !important;
         }
       
         .hero .slider-text h1 {
