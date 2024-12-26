@@ -10,3 +10,14 @@
 .autor-quote {
    margin-left: 5px;
 }
+
+.test {
+    height : 100vh;
+}
+
+@media screen and (max-width: 991px) {
+    .buttons-hero-webgencia {
+        justify-content: center;
+        gap: 15px;
+    }
+}
