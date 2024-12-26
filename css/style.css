@@ -8292,7 +8292,7 @@ h1, h2, h3, h4, h5,
       text-decoration: none;
       color: #ffbd39;
       outline: none !important; }
-  .ftco-navbar-light.scrolled {
+  
     right: 0;
     left: 0;
     top: 0;
@@ -9385,9 +9385,6 @@ textarea.form-control {
       color: #fff;
       border: 1px solid transparent; }
 
-.contact-section .contact-info p a {
-  color: #1a1a1a; }
-
 .contact-section .box {
   width: 100%;
   display: block;
@@ -9422,16 +9419,9 @@ textarea.form-control {
 .contact-section .img {
   width: 100%;
   background-position: top center; }
-<<<<<<< HEAD
   @media (max-width: 767.98px) {
-=======
-  @media (max-width: 991.98px) {
->>>>>>> 92eb13d1c4cd424cc75dd3bd0340e4a7ba36d1a8
     .contact-section .img {
       height: 500px; } }
-
-.contact-section .contact-info p a {
-  color: #fff; }
 
 .contact-section .contact-form {
   width: 100%; }
