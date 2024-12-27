@@ -8291,7 +8291,10 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
       color: #ffbd39;
-      outline: none !important;
+      outline: none !important;}
+
+    .ftco-navbar-light.scrolled {
+    position: fixed;
     right: 0;
     left: 0;
     top: 0;
@@ -8300,6 +8303,7 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px; }
+    
     .ftco-navbar-light.scrolled .nav-item > .nav-link {
       color: #fff !important; }
       @media (max-width: 991.98px) {

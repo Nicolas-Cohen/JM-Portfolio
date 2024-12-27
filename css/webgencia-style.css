@@ -23,10 +23,54 @@
     z-index: 2 !important;
 }
 
+.title-legal-webgencia {
+    color: #ffbd39;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+.link-project-webgencia {
+    margin: auto;
+}
+
+.div-filters-webgencia {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.filter-btn {
+    color: #ffbd39 !important;
+}
+
+.filter-btn:hover {
+    color: #212529 !important;
+    background-color: #ffbd39;
+}
+
+.filter-btn.active {
+    color: #212529 !important;
+    background-color: #ffbd39;
+}
+
+.project-item {
+    display: none !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.project-item.active {
+    display: block !important;
+}
+
+
 @media screen and (max-width: 991px) {
     .buttons-hero-webgencia {
         justify-content: center;
         gap: 15px;
     }
+
+    .div-filters-webgencia {
+        gap: 7px;
+    }    
 }
 
