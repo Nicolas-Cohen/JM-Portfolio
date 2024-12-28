@@ -62,6 +62,19 @@
     display: block !important;
 }
 
+.section-resume-webgencia {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-resume-webgencia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-webgencia {
+    width: 49% !important;
+}
 
 @media screen and (max-width: 991px) {
     .buttons-hero-webgencia {
@@ -71,6 +84,22 @@
 
     .div-filters-webgencia {
         gap: 7px;
-    }    
+    }
+
+    .div-resume-webgencia {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .resume-webgencia {
+        width: 100% !important;
+    }
+    
 }
 
+@media screen and (max-width: 575px) {
+    .section-resume-webgencia {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
