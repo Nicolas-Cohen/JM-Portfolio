@@ -47,11 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', () => {
             const filter = button.getAttribute('data-filter');
 
-            // Remove "active" class from all buttons and add it to the clicked button
             filterButtons.forEach(btn => btn.classList.remove('active'));
             button.classList.add('active');
 
-            // Show/hide projects based on the filter
             projects.forEach(project => {
                 if (filter === 'all' || project.classList.contains(filter)) {
                     project.classList.add('active');

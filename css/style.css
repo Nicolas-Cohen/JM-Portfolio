@@ -8399,7 +8399,7 @@ h1, h2, h3, h4, h5,
       .hero {
         position: relative;
         height: 100vh;
-        background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url("../images/hero.jpg");
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url("../images/hero.webp");
         background-size: cover;
         background-position: center center;
         display: flex;
